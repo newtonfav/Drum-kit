@@ -1,0 +1,10 @@
+.DS_Store
+.vscode
+authentication.js 
+node_modules 
+notes/ 
+**/*-todo.md
+desktop.ini
+package-lock.json
+dist
+.eslintcache
