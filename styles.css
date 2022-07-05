@@ -15,33 +15,32 @@ body {
 
 /*********** Drum kit ***********/
 .drum-set {
-    margin: 40px;
+    margin: 40px 68px 40px 2px;
     height: 720px;
-    /* background-color: rgb(222, 216, 206); */
     background-color: white;
     position: relative;
-    /* display: grid;
-    column-gap: 20px;
-    grid-template-columns: repeat(8, 2fr); */
     font-size: 50px;
 }
 
-/* 
-.circle {
-    height: 100px;
-    width: 100px;
-    background-color: black;
-    border-radius: 50%;
-    margin: 50px;
-} */
-
 .key {
-    color: white;
-    text-align: center;
+    color: #FCFCF3;
+    text-align: center; 
     top: 50%;
     position: relative;
     font-size: 1em;
-    transform: translateY(-50%)
+    transform: translateY(-50%);
+    font-family: 'Roboto', sans-serif;
+}
+
+.circle {
+    transition: all .07s ease;
+}
+
+.playing {
+    transform: scale(1.1);
+    border: 5px solid #ffc600;
+    /* border-color: #ffc600; */
+    box-shadow: 0 0 0 5px #ffc600 ;
 }
 
 .floor-tom .key, .high-tom .key, .mid-tom .key, .kick .key, .snare .key {
@@ -62,11 +61,10 @@ body {
 
 .snare {
     left: 29%;
-    /* right: 60.82%; */
     top: 34%;
     height: 4.5em;
     width: 4.5em;
-    background-color: white;
+    background-color: #FCFCF3;
     border: 10px solid black;
     border-radius: 50%;
     margin: 10px; 
@@ -90,7 +88,7 @@ body {
     top: 23%;
     height: 3.5em;
     width: 3.5em;
-    background-color: white;
+    background-color: #FCFCF3;
     border: 10px solid black;
     border-radius: 50%;
     margin: 10px; 
@@ -102,7 +100,7 @@ body {
     top: 49%;
     height: 6.5em;
     width: 6.5em;
-    background-color: white;
+    background-color: #FCFCF3;
     border: 10px solid black;
     border-radius: 50%;
     margin: 10px; 
@@ -114,7 +112,7 @@ body {
     top: 23%;
     height: 3.5em;
     width: 3.5em;
-    background-color: white;
+    background-color: #FCFCF3;
     border: 10px solid black;
     border-radius: 50%;
     margin: 10px; 
@@ -126,7 +124,7 @@ body {
     top: 31%;
     height: 5.5em;
     width: 5.5em;
-    background-color: white;
+    background-color: #FCFCF3;
     border: 10px solid black;
     border-radius: 50%;
     margin: 10px; 
