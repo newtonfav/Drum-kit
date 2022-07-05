@@ -1,8 +1,55 @@
-body {
-    padding: 0;
+* {
+    box-sizing: border-box;
     margin: 0;
 }
 
-.keys {
-    font-size: 50px;
+body {
+    background-color: white;
+    margin: 0 50px;
+}
+
+.logo {
+    margin: 10px;
+}
+
+
+/*********** Drum kit ***********/
+.drum-set {
+    margin: 40px;
+    height: 720px;
+    background-color: rgb(222, 216, 206);
+    position: relative;
+    display: grid;
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: auto auto auto;
+    font-size: 20px;
+}
+
+/* 
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 50px;
+} */
+
+.hihats {
+    position: absolute;
+    right: 79.92%;
+    top: 27.2%;
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 10px;
+}
+.key {
+    color: white;
+    text-align: center;
+    top: 50%;
+    position: relative;
+    font-size: 1em;
+    transform: translateY(-50%)
 }
