@@ -17,13 +17,13 @@ body {
 .drum-set {
     margin: 40px;
     height: 720px;
-    background-color: rgb(222, 216, 206);
+    /* background-color: rgb(222, 216, 206); */
+    background-color: white;
     position: relative;
-    display: grid;
-    display: grid;
+    /* display: grid;
     column-gap: 20px;
-    grid-template-columns: auto auto auto;
-    font-size: 20px;
+    grid-template-columns: repeat(8, 2fr); */
+    font-size: 50px;
 }
 
 /* 
@@ -35,16 +35,6 @@ body {
     margin: 50px;
 } */
 
-.hihats {
-    position: absolute;
-    right: 79.92%;
-    top: 27.2%;
-    height: 150px;
-    width: 150px;
-    background-color: black;
-    border-radius: 50%;
-    margin: 10px;
-}
 .key {
     color: white;
     text-align: center;
@@ -52,4 +42,104 @@ body {
     position: relative;
     font-size: 1em;
     transform: translateY(-50%)
+}
+
+.floor-tom .key, .high-tom .key, .mid-tom .key, .kick .key, .snare .key {
+    color: black;
+}
+
+
+.crash-cymbal {
+    left: 33%;
+    top: 6%;
+    height: 4em;
+    width: 4em;
+    background-color: black;
+    border-radius: 50%;
+    margin: 10px; 
+    position: absolute;
+}
+
+.snare {
+    left: 29%;
+    /* right: 60.82%; */
+    top: 34%;
+    height: 4.5em;
+    width: 4.5em;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 50%;
+    margin: 10px; 
+    position: absolute;
+}
+
+.hihats {
+    left: 23%;
+    right: 79.92%;
+    top: 28%;
+    position: absolute;
+    height: 3.5em;
+    width: 3.5em;
+    background-color: black;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.high-tom {
+    left: 40%;
+    top: 23%;
+    height: 3.5em;
+    width: 3.5em;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 50%;
+    margin: 10px; 
+    position: absolute;
+}
+
+.kick {
+    left: 40.7%;
+    top: 49%;
+    height: 6.5em;
+    width: 6.5em;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 50%;
+    margin: 10px; 
+    position: absolute;
+}
+
+.mid-tom {
+    right: 36%;
+    top: 23%;
+    height: 3.5em;
+    width: 3.5em;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 50%;
+    margin: 10px; 
+    position: absolute;
+}
+
+.floor-tom {
+    right: 22%;
+    top: 31%;
+    height: 5.5em;
+    width: 5.5em;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 50%;
+    margin: 10px; 
+    position: absolute;
+}
+
+.ride {
+    right: 25%;
+    top: 8%;
+    height: 4.5em;
+    width: 4.5em;
+    background-color: black;
+    border-radius: 50%;
+    margin: 10px; 
+    position: absolute;
 }
