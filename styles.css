@@ -27,7 +27,7 @@ body {
     text-align: center; 
     top: 50%;
     position: relative;
-    font-size: 1em;
+    font-size: 0.6em;
     transform: translateY(-50%);
     font-family: 'Roboto', sans-serif;
 }
@@ -39,7 +39,6 @@ body {
 .playing {
     transform: scale(1.1);
     border: 5px solid #ffc600;
-    /* border-color: #ffc600; */
     box-shadow: 0 0 0 5px #ffc600 ;
 }
 
@@ -64,11 +63,12 @@ body {
     top: 34%;
     height: 4.5em;
     width: 4.5em;
-    background-color: #FCFCF3;
+    background-color: #ffffff;
     border: 10px solid black;
     border-radius: 50%;
     margin: 10px; 
     position: absolute;
+    
 }
 
 .hihats {
@@ -88,7 +88,7 @@ body {
     top: 23%;
     height: 3.5em;
     width: 3.5em;
-    background-color: #FCFCF3;
+    background-color: #ffffff;
     border: 10px solid black;
     border-radius: 50%;
     margin: 10px; 
@@ -100,7 +100,7 @@ body {
     top: 49%;
     height: 6.5em;
     width: 6.5em;
-    background-color: #FCFCF3;
+    background-color: #ffffff;
     border: 10px solid black;
     border-radius: 50%;
     margin: 10px; 
@@ -112,7 +112,7 @@ body {
     top: 23%;
     height: 3.5em;
     width: 3.5em;
-    background-color: #FCFCF3;
+    background-color: #ffffff;
     border: 10px solid black;
     border-radius: 50%;
     margin: 10px; 
@@ -124,7 +124,7 @@ body {
     top: 31%;
     height: 5.5em;
     width: 5.5em;
-    background-color: #FCFCF3;
+    background-color: #ffffff;
     border: 10px solid black;
     border-radius: 50%;
     margin: 10px; 
@@ -140,4 +140,13 @@ body {
     border-radius: 50%;
     margin: 10px; 
     position: absolute;
+}
+
+
+.snare:hover, .kick:hover, .high-tom:hover, .mid-tom:hover, .floor-tom:hover {
+    background-color: #e7d698;
+}
+
+.ride:hover, .crash-cymbal:hover, .hihats:hover {
+    background-color: #292825;
 }
