@@ -15,7 +15,7 @@ body {
 
 /*********** Drum kit ***********/
 .drum-set {
-    margin: 40px 68px 40px 2px;
+    margin: 40px 68px 2px;
     height: 720px;
     background-color: white;
     position: relative;
@@ -149,4 +149,10 @@ body {
 
 .ride:hover, .crash-cymbal:hover, .hihats:hover {
     background-color: #292825;
+}
+
+.author {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: black;
 }
